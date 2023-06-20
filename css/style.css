@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+body {
+    top: 50px;
+    background-color: white;
+    font-family: "Roboto";
+}
+nav {
+    background-image: url(../Imagenes/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 250px;
+    background-color: white;
+    margin-top: 0;
+    font-size: 25px;
+}
+/*
+header {
+    background-image: url(../Imagenes/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 250px;
+    background-color: white;
+    margin-top: 0;
+    font-size: 25px;
+} */
+
+section{
+    min-width: 1000px;
+    margin: auto;
+    padding: 60px;
+}
+.section{
+    padding: 50px 0px 0px;
+}
+.destacado{
+padding: 0px;
+text-align: center;
+}
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: plum;
+    padding: 10;
+    margin-top: 85px;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    height: 70px;   
+}
+footer h5 {
+    color: white;
+    padding: 0;
+}
+.imagen {
+    width: 875px;
+    height: 500px;
+}
+.redes {
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+
+
+}
+.productos {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0%;
+}
+.logo {
+    width: 300px;
+    height: 150px;
+
+}
+section div {
+    overflow: hidden;
+}
+
+.compras {
+    color: white;
+    text-decoration: none;
+    background: #8BC34A;
+    padding: 4px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+
+    
+   
+}
+
+.compras2 {
+    color: white;
+    text-decoration: none;
+    background: #8BC34A;
+    padding: 4px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+ 
+}
+.centrado {
+    text-align: center;
+}
+
+.flexma {
+display: flex;
+justify-content: center;
+margin-right: 25px;
+}
+
+.centro {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.pie-pagina {
+    width: 100%;
+}
+/*
+.top {
+    padding-top: 350px;
+}*/
+
+.espacio {
+    padding-bottom: 0px;
+}
+.espacio2{
+    padding-top: 20px;
+}
+.espacio3{
+    padding: 60px 0px 120px;
+}
+.tienda {
+    text-align: center;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+}
+
+.tienda2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+.contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.enviar {
+    color: white;
+    text-decoration: none;
+    background: #8BC34A;
+    padding: 4px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.medio {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+/* Posible solucion a fondo de "Inyectables y Corporales" para cubrir todo el espacio.
+
+.flotar3 {
+    background-image: url(../Imagenes/imag3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+.barra {
+    color: rgb(121, 18, 134);
+    text-decoration: none;
+    font-size: 20px;
+}
+img {
+    max-width: 100%;
+}
+.container-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.item {
+    border-radius: 10px;
+}
+item:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+.info-producto{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.price{
+    font-size: 18px;
+    font-weight: 900;
+}
+.boton{
+    border: none;
+    background: none;
+    background-color: #8BC34A;
+    cursor: pointer;
+}
+.info-enviar{
+    padding: auto;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
