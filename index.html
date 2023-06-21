@@ -9,17 +9,65 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="nav">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"><img src="./Imagenes/epcilon.png" alt="Logo" width="300px">
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Pages/faciales.html">Faciales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Pages/corporales.html">Corporales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Pages/inyectables.html">Inyectables</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Pages/cosmetría.html">Cosmetría</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Cremas</a></li>
+                  <li><a class="dropdown-item" href="#">Humectantes</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Otros</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- 
+         <header class="nav">
         <nav class="navbar navbar-expand-md justify-content-center">
-            <div class="container">              
+            <div class="container col-lg-2 col-xxl-3 col-xl-3 col-ms-3 col-md-5 col-xs-5">              
                     <a class="navbar-brand" href="index.html">
                         <img src="./Imagenes/epcilon.png" alt="Logo" width="50" height="24" class="d-inline-block align-text-top logo">
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="menu">
-                        <ul class="navbar-nav me-auto">
+                    <div class="container col-3 col-md-3 col-sm-3 col-xs-3">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                </div>
+            </div>
+            <div class="container col-3">
+                    <div class="collapse navbar-collapse me-auto col-lg-5 col-ms-8 mr-5 col-md-3" id="menu">
+                        <ul class="navbar-nav">
                             <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
                             <li class="nav-item"><a class="nav-link active" href="./Pages/faciales.html">Faciales</a></li>
                             <li class="nav-item"><a class="nav-link active" href="./Pages/corporales.html">Corporales</a></li>
@@ -29,6 +77,8 @@
                 </div>
             </div>
         </nav>
+     -->
+   
      <!-- <nav>
             <img src="./Imagenes/epcilon.png" class="logo" alt="Logo epcilon">
            <ul>
@@ -38,8 +88,9 @@
                 <li><a href="./Pages/inyectables.html">Inyectables</a></li>
                 <li><a href="./Pages/cosmetría.html">Cosmetría</a></li>
            </ul>
-        </nav>  -->
+        </nav>  
     </header>
+    -->
     <main>
         <section class="container">
             <div class="row justify-content-center">
@@ -178,7 +229,7 @@
         </div>
        </section>
     </main>
-    <footer class="bg-light text-dark pt-5 pb-4 justify-content-center">
+    <section class="bg-light text-dark pt-5 pb-4 justify-content-center">
         <div class="container text-center text-md-start">
             <div class="row text-center text-md-start">
                 <div class="col-ms-3 col-lg-3 col-xl-3 mx-auto mt-3">
@@ -215,7 +266,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
