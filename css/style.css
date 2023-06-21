@@ -12,6 +12,15 @@ body {
     top: 50px;
     background-color: white;
     font-family: "Roboto";
+    left: 0;
+    right: 0;
+    padding-top: 18rem;
+}
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
 }
 nav {
     background-image: url(../Imagenes/banner.jpg);
@@ -20,7 +29,9 @@ nav {
     background-position: center;
     position: fixed;
     top: 0;
-    width: 100vw;
+    left: 0;
+    right: 0;
+    width: 200vw;
     height: 250px;
     background-color: white;
     margin-top: 0;
@@ -63,15 +74,7 @@ header nav ul {
     padding: 10;
     margin-top: 85px;
 }
-footer {
-    background-color: black;
-    text-align: center;
-    height: 70px;   
-}
-footer h5 {
-    color: white;
-    padding: 0;
-}
+
 .imagen {
     width: 875px;
     height: 500px;
@@ -245,4 +248,19 @@ item:hover{
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+a {
+    text-decoration: none;
+}
+
+footer a{
+    font-size: 17px;
+    
+}
+footer p{
+    font-size: 17px;
+}
+
+a:hover{
+    color: #8BC34A !important;
 }
