@@ -1,0 +1,29 @@
+a {
+    text-decoration: none;
+    &:hover{
+        color: $clr-btn!important;
+    }
+}
+
+item:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+img {
+    max-width: 100%;
+}
+
+section{
+    div{
+        img{
+            padding-bottom: 15px;
+        }
+        div{
+            figure{
+                img{
+                    padding-top: 15px;
+                }
+            }
+        }
+    }
+}

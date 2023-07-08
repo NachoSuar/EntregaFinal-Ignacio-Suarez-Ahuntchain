@@ -1,0 +1,173 @@
+.desple{
+    background: linear-gradient(rgba(252, 252, 252, 0.70), rgba(255, 255, 255, 0.70));
+}
+
+.section{
+    padding: 50px 0px 0px;
+}
+
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.destacado{
+padding: 0px;
+text-align: center;
+}
+
+.imagen {
+    width: 875px;
+    height: 500px;
+}
+
+.redes {
+    width: 50px;
+    margin-right: nth($size , 1);
+    margin-top: nth($size , 1);
+    margin-left: nth($size , 1);
+    z-index: 1;
+}
+
+.productos {
+    width: 150px;
+    height: 150px;
+    margin-right: nth($size , 2);
+    margin-left: nth($size , 2);
+    padding: 0%;
+}
+
+.logo {
+    width: 300px;
+    height: 150px;
+}
+
+.compras {
+    background: $clr-btn;
+    @include compras(white, none,
+    4px 20px, 30px, 20px);
+}
+
+.compras2 {
+    background: $clr-btn;
+    @include compras(white, none,
+    4px 20px, 30px, 20px);
+}
+
+.centrado {
+    text-align: center;
+}
+
+.flexma {
+@extend %row;
+margin-right: 25px;
+}
+
+.centro {
+    @extend %row;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.pie-pagina {
+    width: 100%;
+}
+
+.espacio {
+    padding-bottom: 0px;
+}
+
+.espacio2{
+    padding-top: 20px;
+}
+
+.espacio3{
+    padding: 60px 0px 120px;
+}
+
+.tienda {
+    text-align: center;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+}
+
+.tienda2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.enviar {
+    color: white;
+    text-decoration: none;
+    background: $clr-btn;
+    padding: 4px 20px;
+    border-radius: 30px;
+    font-size: $fbt-sze;
+}
+
+.medio {
+    @extend %row;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.barra {
+    color: rgb(121, 18, 134);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.container-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.item {
+    border-radius: 10px;
+}
+
+.info-producto{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.boton{
+    border: none;
+    background: none;
+    background-color: $clr-btn;
+    cursor: pointer;
+}
+
+.info-enviar{
+    padding: auto;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

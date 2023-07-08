@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    body {
+        top: map-get($body-ppl , tp);
+        background-color: map-get($body-ppl , bg);
+        font-family: "Roboto";
+        left: map-get($body-ppl , lf);
+        right: map-get($body-ppl , rg);
+        padding-top: map-get($body-ppl , pdt);
+    }
+}

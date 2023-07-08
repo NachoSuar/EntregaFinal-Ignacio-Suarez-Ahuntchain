@@ -1,0 +1,7 @@
+@mixin compras($color, $txdeco, $pd, $br, $ft){
+    color: $color;
+    text-decoration: $txdeco;
+    padding: $pd;
+    border-radius: $br;
+    font-size: $ft;
+}

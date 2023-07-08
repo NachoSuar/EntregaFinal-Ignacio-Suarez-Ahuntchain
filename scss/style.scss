@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import './base/vars';
+@import './base/listas';
+@import './base/maps';
+@import './base/extend';
+@import './base/mixin';
+
+
+
+@import './componentes/body';
+@import './componentes/header';
+@import './componentes/nav';
+@import './componentes/section';
+@import './componentes/class';
+@import './componentes/main';
+@import './componentes/footer';

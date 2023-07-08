@@ -1,273 +1,271 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    text-decoration: none;
-    box-sizing: border-box;
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.medio, .centro, .flexma {
+  display: flex;
+  justify-content: center;
 }
 
-body {
-    top: 50px;
-    background-color: white;
-    font-family: "Roboto";
-    left: 0;
-    right: 0;
-    padding-top: 18rem;
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
 }
-header{
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
+* body {
+  top: 50px;
+  background-color: white;
+  font-family: "Roboto";
+  left: 0;
+  right: 0;
+  padding-top: 18rem;
 }
 
-.desple{
-    background: linear-gradient(rgba(252, 252, 252, 0.70), rgba(255, 255, 255, 0.70));
-}
-.nav {
-    background-image: url(../Imagenes/banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: fixed;
- 
-    top: 0;
-    left: 0;
-    right: 0;
-    /*
-    width: 200vw;
-    */
-    height: 250px;
-    background-color: white;
-    margin-top: 0;
-    font-size: 25px;
-}
-/*
 header {
-    background-image: url(../Imagenes/banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    height: 250px;
-    background-color: white;
-    margin-top: 0;
-    font-size: 25px;
-} */
-
-section{
-    min-width: 1000px;
-    margin: auto;
-    padding: 60px;
-}
-.section{
-    padding: 50px 0px 0px;
-}
-.destacado{
-padding: 0px;
-text-align: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
 }
 header nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: start;
-    text-decoration: none;
-    list-style-type: none;
-    background-color: plum;
-    padding: 10;
-    margin-top: 85px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: start;
+  text-decoration: none;
+  list-style-type: none;
+  background-color: plum;
+  padding: 10;
+  margin-top: 85px;
+}
+
+.nav {
+  background-image: url(../Imagenes/banner.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 250px;
+  background-color: white;
+  margin-top: 0;
+  font-size: 25px;
+}
+
+section {
+  min-width: 1000px;
+  margin: auto;
+  padding: 60px;
+}
+section div {
+  overflow: hidden;
+}
+
+.desple {
+  background: linear-gradient(rgba(252, 252, 252, 0.7), rgba(255, 255, 255, 0.7));
+}
+
+.section {
+  padding: 50px 0px 0px;
+}
+
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.destacado {
+  padding: 0px;
+  text-align: center;
 }
 
 .imagen {
-    width: 875px;
-    height: 500px;
+  width: 875px;
+  height: 500px;
 }
+
 .redes {
-    width: 50px;
-    height: 50px;
-    margin-right: 25px;
-    margin-top: 25px;
-    margin-left: 25px;
-
-
+  width: 50px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-left: 25px;
+  z-index: 1;
 }
+
 .productos {
-    width: 150px;
-    height: 150px;
-    margin-right: 20px;
-    margin-left: 20px;
-    padding: 0%;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 0%;
 }
-.logo {
-    width: 300px;
-    height: 150px;
 
-}
-section div {
-    overflow: hidden;
+.logo {
+  width: 300px;
+  height: 150px;
 }
 
 .compras {
-    color: white;
-    text-decoration: none;
-    background: #8BC34A;
-    padding: 4px 20px;
-    border-radius: 30px;
-    font-size: 20px;
-
-    
-   
+  background: #8BC34A;
+  color: white;
+  text-decoration: none;
+  padding: 4px 20px;
+  border-radius: 30px;
+  font-size: 20px;
 }
 
 .compras2 {
-    color: white;
-    text-decoration: none;
-    background: #8BC34A;
-    padding: 4px 20px;
-    border-radius: 30px;
-    font-size: 20px;
- 
+  background: #8BC34A;
+  color: white;
+  text-decoration: none;
+  padding: 4px 20px;
+  border-radius: 30px;
+  font-size: 20px;
 }
+
 .centrado {
-    text-align: center;
+  text-align: center;
 }
 
 .flexma {
-display: flex;
-justify-content: center;
-margin-right: 25px;
+  margin-right: 25px;
 }
 
 .centro {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    padding: 10px;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
 }
 
 .pie-pagina {
-    width: 100%;
+  width: 100%;
 }
-/*
-.top {
-    padding-top: 350px;
-}*/
 
 .espacio {
-    padding-bottom: 0px;
+  padding-bottom: 0px;
 }
-.espacio2{
-    padding-top: 20px;
+
+.espacio2 {
+  padding-top: 20px;
 }
-.espacio3{
-    padding: 60px 0px 120px;
+
+.espacio3 {
+  padding: 60px 0px 120px;
 }
+
 .tienda {
-    text-align: center;
-    display: flex;
-    margin: auto;
-    padding: 10px;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  padding: 10px;
 }
 
 .tienda2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-align: center;
-    margin: auto;
-    padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
 }
+
 .contacto {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
 }
 
 .enviar {
-    color: white;
-    text-decoration: none;
-    background: #8BC34A;
-    padding: 4px 20px;
-    border-radius: 30px;
-    font-size: 20px;
+  color: white;
+  text-decoration: none;
+  background: #8BC34A;
+  padding: 4px 20px;
+  border-radius: 30px;
+  font-size: 20px;
 }
 
 .medio {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    padding: 10px;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
 }
-/* Posible solucion a fondo de "Inyectables y Corporales" para cubrir todo el espacio.
 
-.flotar3 {
-    background-image: url(../Imagenes/imag3.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}*/
 .barra {
-    color: rgb(121, 18, 134);
-    text-decoration: none;
-    font-size: 20px;
+  color: rgb(121, 18, 134);
+  text-decoration: none;
+  font-size: 20px;
 }
-img {
-    max-width: 100%;
-}
+
 .container-items {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
+
 .item {
-    border-radius: 10px;
+  border-radius: 10px;
 }
-item:hover{
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+
+.info-producto {
+  padding: 15px 30px;
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
-.info-producto{
-    padding: 15px 30px;
-    line-height: 2;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+
+.price {
+  font-size: 18px;
+  font-weight: 900;
 }
-.price{
-    font-size: 18px;
-    font-weight: 900;
+
+.boton {
+  border: none;
+  background: none;
+  background-color: #8BC34A;
+  cursor: pointer;
 }
-.boton{
-    border: none;
-    background: none;
-    background-color: #8BC34A;
-    cursor: pointer;
+
+.info-enviar {
+  padding: auto;
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
-.info-enviar{
-    padding: auto;
-    line-height: 2;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
+
 a {
-    text-decoration: none;
+  text-decoration: none;
+}
+a:hover {
+  color: #8BC34A !important;
 }
 
-footer a{
-    font-size: 17px;
-    
-}
-footer p{
-    font-size: 17px;
+item:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-a:hover{
-    color: #8BC34A !important;
+img {
+  max-width: 100%;
 }
+
+section div img {
+  padding-bottom: 15px;
+}
+section div div figure img {
+  padding-top: 15px;
+}
+
+footer p {
+  font-size: 17px;
+}
+footer a {
+  font-size: 17px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,19 @@
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    nav{
+        ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: start;
+            text-decoration: none;
+            list-style-type: none;
+            background-color: plum;
+            padding: 10;
+            margin-top: 85px;
+        }
+    }
+}
