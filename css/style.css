@@ -54,12 +54,8 @@ header nav ul {
 }
 
 section {
-  min-width: 1000px;
   margin: auto;
   padding: 60px;
-}
-section div {
-  overflow: hidden;
 }
 
 .desple {
@@ -239,6 +235,10 @@ section div {
   gap: 5px;
 }
 
+.logo {
+  padding-left: 0%;
+}
+
 a {
   text-decoration: none;
 }
@@ -248,10 +248,6 @@ a:hover {
 
 item:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-img {
-  max-width: 100%;
 }
 
 section div img {
