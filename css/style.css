@@ -295,6 +295,9 @@ section {
   .uli2 {
     padding-left: 14%;
   }
+  .uli3 {
+    padding-left: 2% !important;
+  }
 }
 @media (max-width: 2560px) {
   .parrafu {
@@ -326,6 +329,9 @@ section {
   }
   .mg {
     width: 80%;
+  }
+  .mig {
+    width: 17rem;
   }
   .ulil {
     max-width: 50%;
